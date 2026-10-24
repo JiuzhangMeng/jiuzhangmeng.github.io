@@ -9,12 +9,32 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
 <style>
-:root { color-scheme: light; --outer:#e6e7e6; --paper:#f5f5f3; --ink:#303940; --body:#454c51; --muted:#626b73; --rule:#c9cccb; }
+:root {
+  color-scheme: light;
+  --outer: #F5F5F0;
+  --paper: #F5F5F0;
+  --ink: #303940;
+  --body: #454c51;
+  --muted: #626b73;
+  --rule: #DADAD3;
+}
 * { box-sizing:border-box; }
-body { margin:0; padding:20px 10px; background:var(--outer); color:var(--body); font-family:Calibri, Arial, sans-serif; }
-.paper { max-width:1200px; margin:0 auto; background:var(--paper); padding:clamp(25px,5vw,62px); box-shadow:0 2px 15px #00000008; }
+body {
+  margin: 0;
+  padding: 20px 10px;
+  background: var(--outer);
+  color: var(--body);
+  font-family: Calibri, Arial, sans-serif;
+}
+.paper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: var(--paper);
+  padding: clamp(25px, 5vw, 62px);
+  box-shadow: none;
+}
 .hero { display:grid; grid-template-columns:190px minmax(0,1fr); gap:38px; align-items:center; padding-bottom:30px; border-bottom:1px solid var(--rule); }
-..portrait {
+.portrait {
   width: 190px;
   height: 240px;
   background: #e3e4e2;
@@ -100,6 +120,25 @@ p, .detail { font-size:16px; line-height:1.65; color:var(--body); margin:0 0 9px
  .name { font-size:23px; }
  .cn { font-size:18px; }
 }
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  margin-bottom: 28px;
+}
+
+.research-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #DADAD3;
+  background: #f5f5f0;
+  color: #555550;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+}
 </style>
 </head>
 <body>
@@ -115,7 +154,16 @@ p, .detail { font-size:16px; line-height:1.65; color:var(--body); margin:0 0 9px
 <div class="contact"><span>Beijing, China</span><span>+86 186 0093 5363</span><a href="mailto:mengjz0102@outlook.com">mengjz0102@outlook.com</a></div>
 </div>
 </header>
-<p class="intro">My research interests lie in understanding neuronal activity through electrophysiology and optical imaging. During my master’s research at NTNU, I worked on a synchronized platform combining two-photon imaging and whole-cell patch-clamp recording to evaluate optical indicators of neuronal activity.</p>
+<p class="intro">My research interests lie in systems neuroscience, particularly in understanding neural population activity and synaptic connectivity dynamics through multimodal approaches that combine electrophysiology and optical imaging. 
+  I completed my undergraduate studies at Capital Medical University （Beijing, CHina), where I investigated the relationship between synapse formation-related proteins and Alzheimer’s disease. 
+  I subsequently pursued a Master’s degree at the Kavli Institute for Systems Neuroscience (Trondheim, Norway), 
+  where I combined whole-cell patch-clamp recording with a modified MINI2P two-photon microscope to investigate theta-frequency neuronal firing in hippocampal pyramidal cells.</p>
+  <div class="research-tags">
+  <span class="research-tag">Systems Neuroscience</span>
+  <span class="research-tag">Electrophysiology</span>
+  <span class="research-tag">Two-Photon Imaging</span>
+  <span class="research-tag">Hippocampus</span>
+</div>
 <section>
 <h2>Research Experience</h2>
 <article class="entry">
