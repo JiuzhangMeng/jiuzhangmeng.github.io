@@ -42,6 +42,33 @@ h2 { font:bold 24px/1.2 'Times New Roman', serif; color:var(--ink); margin:0 0 2
 .date { font-size:14px; line-height:1.55; color:#727a80; padding-top:3px; text-align:left; }
 .entry-body { min-width:0; text-align:left; }
 .institution { font-size:15px; line-height:1.5; color:#737b80; margin:0 0 7px; text-align:left; }
+  /* Education section */
+.education-school {
+  font-family: 'Times New Roman', serif;
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 5px;
+  text-align: left;
+}
+
+.education-institute {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #737b80;
+  margin: 0 0 5px;
+  text-align: left;
+}
+
+.education-degree {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #626b73;
+  margin: 0;
+  text-align: left;
+}
 .project { font:bold 21px/1.35 'Times New Roman', serif; color:var(--ink); margin:0 0 9px; text-align:left; }
 .role { font-size:17px; line-height:1.45; font-weight:600; color:#3b454c; margin:0 0 8px; text-align:left; }
 p, .detail { font-size:16px; line-height:1.65; color:var(--body); margin:0 0 9px; text-align:left; }
@@ -116,9 +143,37 @@ p, .detail { font-size:16px; line-height:1.65; color:var(--body); margin:0 0 9px
 </article>
 </section>
 <section>
-<h2>Education</h2>
-<article class="entry"><div class="date">Aug. 2024 – Jun. 2026</div><div class="entry-body"><div class="institution">Norwegian University of Science and Technology (NTNU) · Trondheim, Norway</div><div class="role">Master of Science in Neuroscience</div></div></article>
-<article class="entry"><div class="date">Sept. 2019 – Jun. 2024</div><div class="entry-body"><div class="institution">Capital Medical University · Beijing, China</div><div class="role">Bachelor of Medicine in Basic Medical Sciences</div></div></article>
+  <h2>Education</h2>
+
+  <article class="entry">
+    <div class="date">Aug. 2024 – Jun. 2026</div>
+    <div class="entry-body">
+      <div class="education-school">
+        Norwegian University of Science and Technology (NTNU)
+      </div>
+      <div class="education-institute">
+        Kavli Institute for Systems Neuroscience
+      </div>
+      <div class="education-degree">
+        Master of Science in Neuroscience
+      </div>
+    </div>
+  </article>
+
+  <article class="entry">
+    <div class="date">Sept. 2019 – Jun. 2024</div>
+    <div class="entry-body">
+      <div class="education-school">
+        Capital Medical University
+      </div>
+      <div class="education-institute">
+        School of Basic Medical Sciences
+      </div>
+      <div class="education-degree">
+        Bachelor of Medicine in Basic Medical Sciences
+      </div>
+    </div>
+  </article>
 </section>
 <section>
 <h2>Publication</h2>
