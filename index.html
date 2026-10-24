@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jiuzhang Meng — neuroscientist interested in systems neuroscience, neural imaging, electrophysiology, and brain-computer interfaces.">
+  <meta name="color-scheme" content="light dark">
+  <title>Jiuzhang Meng | Academic Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #fbfcfc; --fg: #1b2427; --muted: #5c6b70; --rule: #dfe5e6;
+      --accent: #1f6f78; --accent-soft: #e3f0f1;
+      --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+      --body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --bg:#12181a; --fg:#e3e9ea; --muted:#93a3a7; --rule:#263033; --accent:#6cc0c8; --accent-soft:#1b2c2f; color-scheme:dark; }
+    }
+    :root[data-theme="dark"] { --bg:#12181a; --fg:#e3e9ea; --muted:#93a3a7; --rule:#263033; --accent:#6cc0c8; --accent-soft:#1b2c2f; color-scheme:dark; }
+    :root[data-theme="light"] { color-scheme:light; }
+    body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 var(--body); }
+    a { color:var(--accent); text-underline-offset:3px; text-decoration-thickness:1px; overflow-wrap:anywhere; }
+    a:hover { text-decoration-thickness:2px; }
+    a:focus-visible, button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+    .wrap { max-width:800px; margin:0 auto; padding:64px 20px 72px; display:flex; flex-direction:column; gap:52px; }
+    header { display:flex; align-items:center; gap:28px; }
+    .avatar { width:140px; height:140px; flex:none; border:1px solid var(--rule); border-radius:50%; object-fit:cover; background:var(--accent-soft); color:var(--accent); display:grid; place-items:center; font:500 36px var(--display); letter-spacing:.04em; }
+    .intro { min-width:0; display:flex; flex-direction:column; gap:12px; }
+    .sequence { color:var(--muted); font:13px var(--mono); letter-spacing:.18em; }
+    .sequence b { color:var(--accent); font-weight:500; }
+    h1 { margin:0; font:600 clamp(2.2rem, 6vw, 3rem)/1.1 var(--display); letter-spacing:-.025em; }
+    .role { margin:0; color:var(--muted); font-size:1.02rem; }
+    .links { display:flex; flex-wrap:wrap; gap:8px 20px; font-size:.94rem; }
+    section { display:flex; flex-direction:column; gap:18px; }
+    h2 { margin:0; padding-bottom:10px; border-bottom:1px solid var(--rule); color:var(--muted); font:500 12px var(--body); text-transform:uppercase; letter-spacing:.14em; }
+    p { max-width:68ch; margin:0; }
+    .about { display:flex; flex-direction:column; gap:13px; }
+    .interests { display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:5px 0 0; list-style:none; }
+    .interests li { padding:3px 10px; border-radius:999px; background:var(--accent-soft); color:var(--fg); font-size:.84rem; }
+    .entries { display:flex; flex-direction:column; gap:28px; }
+    .entry { display:grid; grid-template-columns:150px minmax(0,1fr); gap:4px 22px; }
+    .when { padding-top:4px; color:var(--muted); font:12px/1.6 var(--mono); font-variant-numeric:tabular-nums; }
+    .entry-body { min-width:0; display:flex; flex-direction:column; gap:6px; }
+    h3 { margin:0; font:600 1.14rem/1.35 var(--display); }
+    .meta { color:var(--muted); font-size:.9rem; }
+    .desc { font-size:.96rem; }
+    .mine { color:var(--muted); font-size:.91rem; }
+    .mine strong { color:var(--fg); font-weight:500; }
+    .skills { display:grid; grid-template-columns:150px minmax(0,1fr); gap:12px 22px; margin:0; }
+    .skills dt { padding-top:2px; color:var(--muted); font:500 12px/1.6 var(--mono); }
+    .skills dd { min-width:0; margin:0; font-size:.94rem; }
+    .note { color:var(--muted); font-size:.87rem; }
+    footer { border-top:1px solid var(--rule); padding-top:15px; color:var(--muted); font-size:.82rem; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+    @media (max-width:600px) {
+      .wrap { padding:38px 18px 48px; gap:40px; }
+      header { flex-direction:column; align-items:flex-start; gap:18px; }
+      .avatar { width:112px; height:112px; font-size:30px; }
+      .entry, .skills { grid-template-columns:minmax(0,1fr); gap:4px; }
+      .when { padding-top:0; }
+      .skills dd { margin-bottom:8px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <!-- To use a photo, replace this div with: <img class="avatar" src="photo.jpg" alt="Portrait of Jiuzhang Meng"> and upload photo.jpg beside index.html. -->
+      <div class="avatar" aria-label="Initials JM">JM</div>
+      <div class="intro">
+        <div class="sequence" aria-hidden="true">A T <b>C G</b> T A <b>C G</b> G A T</div>
+        <h1>Jiuzhang Meng</h1>
+        <p class="role">MSc Neuroscience, Norwegian University of Science and Technology (NTNU) · Completed June 2026</p>
+        <div class="links">
+          <!-- Replace the placeholder with your real academic email before publishing. -->
+          <span>Email: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></span>
+          <!-- Add links such as LinkedIn, Google Scholar, ORCID, or GitHub when ready. -->
+        </div>
+      </div>
+    </header>
+
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <div class="about">
+        <p>I completed my MSc in Neuroscience at the Norwegian University of Science and Technology (NTNU) in June 2026. My master's research combined whole-cell patch-clamp electrophysiology with two-photon calcium and voltage imaging to study CA1 pyramidal neurons in acute mouse hippocampal slices and evaluate a miniaturized two-photon imaging system.</p>
+        <p>My interests are in understanding how neural activity is measured, represented, and interpreted across neurons and circuits. I am particularly interested in systems and circuit neuroscience, neural population dynamics, in vivo electrophysiology, neural decoding, and technologies that connect neural signals with brain-computer interfaces.</p>
+        <ul class="interests" aria-label="Research interests">
+          <li>Systems neuroscience</li>
+          <li>Neural imaging</li>
+          <li>Electrophysiology</li>
+          <li>Neural population dynamics</li>
+          <li>Neural decoding</li>
+          <li>Brain-computer interfaces</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="research-heading">
+      <h2 id="research-heading">Research experience</h2>
+      <div class="entries">
+        <article class="entry">
+          <div class="when">2024 – 2026</div>
+          <div class="entry-body">
+            <h3>Combining electrophysiology and two-photon imaging in hippocampal CA1 neurons</h3>
+            <div class="meta">MSc Research Project · Norwegian University of Science and Technology (NTNU)</div>
+            <p class="desc">My master's project investigated a miniaturized two-photon imaging system by combining cellular imaging with simultaneous whole-cell patch-clamp recordings in acute mouse hippocampal slices. The work focused on calcium and voltage imaging in CA1 pyramidal neurons.</p>
+            <p class="mine"><strong>Methods:</strong> Whole-cell patch clamp, two-photon calcium and voltage imaging, ScanImage, Fiji/ImageJ, Clampfit, and data analysis in R.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="entries">
+        <article class="entry">
+          <div class="when">Completed June 2026</div>
+          <div class="entry-body">
+            <h3>Norwegian University of Science and Technology (NTNU)</h3>
+            <div class="meta">Master of Science in Neuroscience</div>
+            <p class="desc">Research focus: hippocampal CA1 neurons, electrophysiology, and two-photon imaging.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Technical skills</h2>
+      <dl class="skills">
+        <dt>Electrophysiology</dt>
+        <dd>Whole-cell patch-clamp recording; electrophysiological signal inspection and analysis.</dd>
+        <dt>Imaging</dt>
+        <dd>Two-photon calcium and voltage imaging; ScanImage; Fiji/ImageJ.</dd>
+        <dt>Data analysis</dt>
+        <dd>Clampfit, R, and figure preparation; currently developing Python skills.</dd>
+        <dt>Research interests</dt>
+        <dd>Systems and circuit neuroscience, neural population dynamics, in vivo neural recording, neural decoding, and brain-computer interfaces.</dd>
+      </dl>
+    </section>
+
+    <footer>
+      <span>Jiuzhang Meng · Academic profile</span>
+      <span>Last updated: October 2026</span>
+    </footer>
+  </main>
+</body>
+</html>
