@@ -55,7 +55,7 @@ body {
 .subtitle { font-size:22px; color:var(--muted); margin-top:15px; }
 .contact { display:flex; flex-wrap:wrap; gap:8px 22px; margin-top:20px; font-size:20px; color:#555e64; }
 a { color:var(--ink); text-decoration:underline; text-underline-offset:3px; }
-.intro { font-size:22px; line-height:1.8; margin:24px 0 32px; max-width:1100px; color:#42494e; text-align:left; }
+.intro { font-size:22px; line-height:1.8; margin:24px 0 32px; max-width:1000px; color:#42494e; text-align:left; }
 section { margin-top:31px; }
 h2 { font:bold 28px/1.2 'Times New Roman', serif; color:var(--ink); margin:0 0 20px; padding-bottom:9px; border-bottom:1px solid var(--rule); }
 .entry { display:grid; grid-template-columns:180px minmax(0,1fr); gap:24px; margin:0 0 27px; }
@@ -140,10 +140,12 @@ p, .detail { font-size:20px; line-height:1.8; color:var(--body); margin:0 0 12px
   letter-spacing: 0.3px;
   line-height: 1.4;
 }
-  .publication-type {
-  font-size: 20px;
-  color: #737b80;
+.publication-type {
+  display: inline-block;
+  font-size: 18px;
   font-style: italic;
+  color: #737b80;
+  margin: -8px 0 12px;
 }
 </style>
 </head>
@@ -203,6 +205,8 @@ p, .detail { font-size:20px; line-height:1.8; color:var(--body); margin:0 0 12px
     </div>
   </article>
 </section>
+
+
 <section>
 <h2>Research Experience</h2>
 <article class="entry">
@@ -230,10 +234,14 @@ p, .detail { font-size:20px; line-height:1.8; color:var(--body); margin:0 0 12px
 </article>
 </section>
 
+
 <section>
 <h2>Publication</h2>
-<p></strong>Meng, J.</strong>; Surimanda, S.; Yi, Y. (2023). “The current applications and potential advantages of the Neuropixels.” <em>Theoretical and Natural Science</em>, 6, 394–399.</p>
+<div class="publication-type">Review</div>
+<p><strong>Meng, J.</strong>; Surimanda, S.; Yi, Y. (2023). “The current applications and potential advantages of the Neuropixels.” <em>Theoretical and Natural Science</em>, 6, 394–399.</p>
 </section>
+
+
 <section>
 <h2>Internship Experience</h2>
 <article class="entry"><div class="date">Feb. 2022 – Jan. 2023</div><div class="entry-body">
@@ -243,6 +251,8 @@ p, .detail { font-size:20px; line-height:1.8; color:var(--body); margin:0 0 12px
 <p class="detail">Recorded admission blood pressure and ECG; observed surgical procedures; assisted with arterial blood sampling and blood-gas measurement, throat-swab collection and wound dressing changes.</p>
 </div></article>
 </section>
+
+
 <section>
 <h2>Technical Skills</h2>
 <div class="skills">
